@@ -1,38 +1,256 @@
+/* poppins font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .App {
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-bg {
+  background-color: #9bf0f0;
+}
+
+.bg-light {
+  background-color: #cfcfcf !important;
+}
+
+.bg-card {
+  background-color: #d6d4d4 !important;
+  color: #666666 !important;
+}
+
+a:hover, a:focus {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.primary-color {
+  color: #fe7e11 !important;
+}
+
+.primary-bg {
+  background-color: #fe7e11 !important;
+}
+
+a {
+  color: #fe7e11 !important;
+}
+
+.dev-button {
+  background-color: #fe7e11 !important;
+  color: white !important;
+  padding: 9px 39px;
+  border-radius: 4px;
+}
+
+.mess-btn {
+  background-color: #fe7e11 !important;
+  color: white !important;
+  padding: 9px 32px !important;
+  border-radius: 50px !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-transform: uppercase !important;
+}
+
+.blog-button {
+  background-color: #fe7e11 !important;
+  color: white !important;
+  padding: 9px 29px;
+  border-radius: 50px;
+}
+
+.blog-outline-button {
+  border: 2px solid #666666 !important;
+  color: white !important;
+  padding: 9px 39px;
+  border-radius: 4px;
+}
+
+h1.dev-name {
+  font-family: 'Montserrat', sans-serif;
+  color: #fe7e11 !important;
+  font-weight: 600;
+}
+
+.dev-logo {
+  color: #fe7e11 !important;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.about-dev {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dev-info-text .skill-info-text .design-info-text .coding-info-text {
+  padding-top: 40px;
+  margin-bottom: 0px;
+  color: #666666;
+  font-family: 'Montserrat', sans-serif;
+}
+.card-icon svg {
+  background: white;
+  color: #fe7e11;
+  padding: 13px;
+  font-size: 58px;
+  border-radius: 40px;
+  margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.service-title {
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.service-dec {
+  font-family: Lato, sans-serif;
+  font-size: 9px;
 }
 
-.App-link {
-  color: #61dafb;
+.fan-card-icon svg {
+  background-color: #a0a0a0;
+  color: #fff;
+  padding: 11px;
+  font-size: 45px;
+  border-radius: 40px;
+  margin: 30px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fan-card-title {
+  color: #fe7e11;
+}
+
+.fan-card-text {
+  color: #666666;
+}
+
+.skill-bar {
+  height: 2px !important;
+  color: #fe7e11 !important;
+}
+
+.blog-card {
+  width: 20rem;
+  text-align: center;
+  background: #e2e2e2 !important;
+  border: none !important;
+}
+
+input#exampleForm\.ControlInput1 {
+  border-color: #666666 !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+
+textarea#exampleForm\.ControlTextarea1 {
+  border-color: #666666 !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+
+.contact-icon svg {
+  background-color: #666666;
+  color: #ffff;
+  padding: 9px;
+  margin: 20px;
+  font-size: 44px;
+  border-radius: 25px;
+}
+
+.footer-text {
+  font-family: Lato, sans-serif !important;
+}
+
+.footer-icon svg {
+  color: #666666;
+  font-size: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.footer-icon svg:hover {
+  color: #fe7e11;
+}
+
+/* special border */
+
+.about-border {
+  background-color: #fe7e11;
+  width: 127px;
+  height: 2px;
+  margin-top: -10px;
+  margin-left: 44.3%;
+}
+
+.skill-border {
+  background-color: #fe7e11;
+  width: 60px;
+  height: 2px;
+  margin-top: -4px;
+  margin-left: 47.9%;
+}
+.design-skill-border {
+  background-color: #fe7e11;
+  width: 148px;
+  height: 2px;
+  margin-top: 4px;
+  margin-left: 0.3%;
+}
+.coding-skill-border {
+  background-color: #fe7e11;
+  width: 154px;
+  height: 2px;
+  margin-top: 4px;
+  margin-left: 0.3%;
+}
+.resume-border{
+  background-color: #fe7e11;
+  width: 102px;
+  height: 2px;
+  margin-top: -4px;
+  margin-left: 46.4%;
+}
+.education-border{
+  background-color: #fe7e11;
+  width: 118px;
+  height: 2px;
+  margin-top: -2px;
+  margin-left: 0.4%;
+}
+.experience-border{
+  background-color: #fe7e11;
+  width: 140px;
+  height: 2px;
+  margin-top: -2px;
+  margin-left: 0.4%;
+}
+.testimonial-border {
+  background-color: #fe7e11;
+  width: 149px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 45.1%;
+}
+.project-border {
+  background-color: #fe7e11;
+  width: 163px;
+  height: 2px;
+  margin-top: 3px;
+  margin-left: 44.6%;
+}
+.contact-border {
+  background-color: #fe7e11;
+  width: 144px;
+  height: 2px;
+  margin-top: -3px;
+  margin-left: 45.3%;
+}
+.blog-border {
+  background-color: #fe7e11;
+  width: 147px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 45.1%;
 }
