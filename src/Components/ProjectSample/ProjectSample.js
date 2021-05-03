@@ -14,24 +14,18 @@ const ProjectSample = () => {
             </div>
         <Container>
             <Row>
-                <Col md={4}>
+                <Col md={12}>
                 <SampleCard></SampleCard>
                 </Col>
-                <Col md={4}>
+                <Col md={12}>
                 <SampleCard></SampleCard>
                 </Col>
-                <Col md={4}>
+                <Col md={12}>
                 <SampleCard></SampleCard>
                 </Col>
-                <Col md={4}>
+                <Col md={12}>
                 <SampleCard></SampleCard>
-                </Col>
-                <Col md={4}>
-                <SampleCard></SampleCard>
-                </Col>
-                <Col md={4}>
-                <SampleCard></SampleCard>
-                </Col>
+                </Col>               
             </Row>
         </Container>
         </div>

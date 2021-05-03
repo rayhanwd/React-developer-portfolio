@@ -18,7 +18,7 @@ const Skills = () => {
                             <h4 className="design-info-text mb-0">Design Skills</h4>
                             <div className="design-skill-border"></div>
                         </div>
-                        <p>loream isam Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum.</p>
+                        <p>Hello! I am a professional react JS developer. I will create a single-page application from start to end with react JS. But if you had an existing HTML file I will convert it into a single page application with react JS.</p>
 
 
                         <ProgressLine
@@ -77,7 +77,7 @@ const Skills = () => {
                             <h4 className="coding-info-text mb-0">Coding Skills</h4>
                             <div className="coding-skill-border"></div>
                         </div>
-                        <p>loream isam Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum.</p>
+                        <p>I can cover front-end development with React JS. I want to take a new challenge with MERN Stack Project. I will create a rest API with node JS, Express JS, and MongoDB for backend handling.</p>
                         <ProgressLine
                             label="Javascript(Es6)"
                             backgroundColor="#666666"

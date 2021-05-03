@@ -7,10 +7,10 @@ const Education = () => {
             <Card className="border-0 shadow-sm rounded-0 my-3 bg-light">
                 <div className="Special-badge"></div>
                 <Card.Body>
-                    <Card.Subtitle variant="h6">15 October 2015-27 March 2018</Card.Subtitle>
-                    <Card.Title>Professional Art and Web Design</Card.Title>
+                    <Card.Subtitle variant="h6">01 October 2016 March 2020</Card.Subtitle>
+                    <Card.Title>Computer Technology</Card.Title>
                     <Card.Text>
-                        loream isam Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum.loream isam Mauris scelerisque ut
+                        I have completed web developer course in Diploma of Computer Technology at Magura Polythenic Institute
                 </Card.Text>
                 </Card.Body>
             </Card>

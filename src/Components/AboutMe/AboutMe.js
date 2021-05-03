@@ -15,9 +15,14 @@ const AboutMe = () => {
                     </Col>
                     <Col md={6}>
                         <div className="mt-5">
-                            <p>Hello I am Jhon Smith, I am a freelance web designer or
-                        developer from Nowakhali, Bangladesh.</p>
-                            <p>loream isam Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod.,</p>
+                            <p>Hello I am Kazi Rayhan, I am a freelance web designer or
+                        developer from Jhenaidah, Bangladesh.</p>
+                            <p>I
+                            performed full-stack development for interactive web applications to
+                            improve functionality and user experience using HTML, CSS, Bootstrap,
+                            Functional JavaScript, and Mostly use for front-end React JS And
+                            Back-End with Node JS, Express JS, MongoDB. I can cover front-end
+development with React JS.</p>
                         </div>
 
                         <div>

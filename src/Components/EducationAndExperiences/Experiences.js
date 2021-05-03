@@ -7,10 +7,10 @@ const Experiences = () => {
             <Card className="border-0 shadow-sm rounded-0 my-3 bg-light">
             <div></div>
                 <Card.Body>
-                    <Card.Subtitle variant="h6">15 October 2015-27 March 2018</Card.Subtitle>
-                    <Card.Title>Professional Art and Web Design</Card.Title>
+                    <Card.Subtitle variant="h6">01 january 2021 April 2021</Card.Subtitle>
+                    <Card.Title>Complete MERN Stack Web Developer</Card.Title>
                     <Card.Text>
-                        loream isam Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum.loream isam Mauris scelerisque ut
+                        I have completed the MERN Stack Web Developing with Programming Hero.
                 </Card.Text>
                 </Card.Body>
             </Card>
