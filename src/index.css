@@ -5,3 +5,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+h2 {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  font-family: "Montserrat", Helvetica, sans-serif !important;
+}
+
+.card{
+  border: none !important;
+}
+.card:hover{
+  background: #fd4766 !important;
+  color: #fff !important;
+}
+.card:hover .service-icon svg{
+  color: #fff !important;
+}
+.card:hover .blog-button{
+  color: #fff !important;
+}

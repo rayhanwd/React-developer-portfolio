@@ -1,0 +1,14 @@
+.page-title {
+    text-align: center;
+    margin-top: 120px;
+    border-bottom: 3px solid #fd4766;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.service-icon svg{
+    font-size: 75px;
+    color: #fd4766 !important;
+    padding-left: 10px;
+    background: none !important;
+}

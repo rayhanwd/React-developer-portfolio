@@ -1,0 +1,20 @@
+.footer-section{
+  background-color: black;
+  text-align: center;
+}
+.footer-text {
+    font-family: Lato, sans-serif;
+    color: #ffffff;
+  }
+  
+  .footer-icon svg {
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .footer-icon svg:hover {
+    color: #fd4766;
+  }
+  

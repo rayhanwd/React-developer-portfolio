@@ -1,0 +1,76 @@
+.sticky {
+    background-color: #101010 !important;
+    transition: all 0.3s ease-out 0s !important;
+    /* -webkit-backdrop-filter: blur(15px) !important; 
+    backdrop-filter: blur(15px) !important; */
+}
+
+.sticky a {
+    color: #fff !important;
+}
+
+.navbar {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+}
+
+a {
+    color: #fd4766 !important;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 5px;
+    display: inline-block;
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.home-main {
+    background-color: #101010;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding-top {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.welcome-text {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.title {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Montserrat, sans-serif;
+    line-height: 90px;
+    text-transform: inherit;
+}
+
+.special {
+    font-weight: 900 !important;
+    color: #fff !important;
+}
+.special-text{
+    border: 3px solid white;
+    border-bottom: none;
+    padding-top:25px;
+}
+
+.social-icon svg{
+    font-size: 20px;
+    background: rgba(255,255,255,.2);
+    color: #fff;
+    border-radius: 60px;
+}
