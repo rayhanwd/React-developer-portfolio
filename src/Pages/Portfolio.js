@@ -18,9 +18,7 @@ const Portfolio = () => {
             <h2 className="">📃Latest Portfolio</h2>
             </div>
                 <Row>
-               <CardBox></CardBox>
-               <CardBox></CardBox>   
-               <CardBox></CardBox>   
+               <CardBox></CardBox> 
                 </Row>
             </Container>
         </div>

@@ -4,7 +4,7 @@ import { TiSocialGithubCircular } from "react-icons/ti";
 const SkillCard = () => {
     return (
         <Card className="shadow-sm mb-5">
-                <div className="d-flex justify-content-between align-items-center">
+                <div className="">
                 <div className="skill-icon">
                 <TiSocialGithubCircular />
                 </div>

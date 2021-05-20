@@ -24,12 +24,7 @@ const About = () => {
                             <div className="mt-5">
                                 <h3 className="pt-3">Kazi Rayhan</h3>
                                 <h4 className="py-3">Front-End Developer</h4>
-                                <p>I
-                                performed full-stack development for interactive web applications to
-                                improve functionality and user experience using HTML, CSS, Bootstrap,
-                                Functional JavaScript, and Mostly use for front-end React JS And
-                                Back-End with Node JS, Express JS, MongoDB. I can cover front-end
-    development with React JS.</p>
+                                <p>I am a Front End developer with experience building websites and web applications. I specialize in JavaScript and have professional experience working with React. I also have experience working with Redux, Gatsby. Take a look at my work or get in touch! www.fnrayhan.info</p>
                             </div>
 
                             <div>
@@ -51,8 +46,8 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="my-5">
-                                <button className="btn btn-primary">DOWNLOAD RESUME</button>
-                                <button className="btn btn-primary ml-5">SEND MESSAGE</button>
+                                <a className="btn btn-primary text-white" href="https://drive.google.com/uc?export=download&amp;id=1vQblI0v8I4V8PDCO08J4aiU9Ksuy9tfV" download="" target="blank_" class="btn btn-primary text-white">DOWNLOAD RESUME</a>
+                                <a className="btn btn-primary text-white" href="https://www.linkedin.com/in/kazi-rayhan-b844b2171/" rel="noreferrer" target="_blank" class="btn btn-primary text-white ml-5">SEND MESSAGE</a>
                             </div>
                         </Col>
                     </Row>
