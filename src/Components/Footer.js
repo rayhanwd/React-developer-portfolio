@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { TiSocialGithubCircular,TiSocialLinkedinCircular,TiSocialFacebookCircular,TiSocialTwitterCircular } from "react-icons/ti";
-import '../../Assets/css/Footer.css';
 const Footer = () => {
     return (
         <div className="footer-section py-2">

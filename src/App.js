@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Services from "./Pages/Services";
-import Portfolio from "./Pages/Portfolio";
-import News from "./Pages/News";
-import Contact from "./Pages/Contact";
+import Home from "./Pages/HomePage";
+import About from "./Pages/AboutPage";
+import Services from "./Pages/ServicesPage";
+import Portfolio from "./Pages/PortfolioPage";
+import Blogs from "./Pages/BlogsPage";
+import Contact from "./Pages/ContactPage";
 import {
   BrowserRouter as Router,
   Route,
@@ -32,8 +32,8 @@ function App() {
           <Route  path="/portfolio">
          <Portfolio></Portfolio>
           </Route>
-          <Route  path="/news">
-         <News></News>
+          <Route  path="/blogs">
+         <Blogs></Blogs>
           </Route>
           <Route  path="/contact">
          <Contact></Contact>

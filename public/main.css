@@ -74,3 +74,84 @@ a {
     color: #fff;
     border-radius: 60px;
 }
+
+.skill-icon{
+    font-size: 54px;
+    display: inline-block;
+    width: 120px;
+    padding: 30px;
+}
+
+.Profile___img {
+    padding: 80px;
+    margin-top: 50px;
+}
+
+.Profile_img_border {
+    border-radius: 10px;
+}
+
+.contact-icon{
+    font-size: 30px;
+    background: rgba(255,255,255,.2) !important;
+    color: #fd4766;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 120px;
+    border-bottom: 3px solid #fd4766;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.service-icon svg{
+    font-size: 75px;
+    color: #fd4766 !important;
+    padding-left: 10px;
+    background: none !important;
+}
+
+.portfolio img{
+    height:50%;
+}
+.hover-text{
+    display:none;
+    z-index: 1;
+    text-align: center;
+    padding-top: 100px;
+}
+.card-div:hover .hover-text{
+    display:block !important;
+    color: #fff !important;
+}
+.card-div:hover a{
+    color: #fff !important;
+}
+.card-div:hover .hover-text{
+    background:#fd4766 !important;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.footer-section{
+    background-color: black;
+    text-align: center;
+  }
+  .footer-text {
+      font-family: Lato, sans-serif;
+      color: #ffffff;
+    }
+    
+    .footer-icon svg {
+      color: #ffffff;
+      font-size: 40px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+    
+    .footer-icon svg:hover {
+      color: #fd4766;
+    }
+    

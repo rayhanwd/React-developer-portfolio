@@ -2,15 +2,9 @@ import React from 'react';
 import { Fragment } from 'react';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import dev_img from '../../src/Assets/Images/profile_img.png';
-import '../Assets/css/About.css';
-import NavigationBar from '../Elements/NavigationBar/NavigationBar';
-import Skills from '../Components/Skills/Skills';
-import Footer from '../Components/Footer/Footer';
-const About = () => {
-    document.title='Rayhan | About';
+const CareerObjective = () => {
     return (
         <Fragment>
-            <NavigationBar></NavigationBar>
             <div className="about-section">
                 <Container>
                     <div className="page-title">
@@ -18,7 +12,9 @@ const About = () => {
                     </div>
                     <Row>
                         <Col md={6}>
-                            <Image className="img-fluid p-5" src={dev_img} alt="developer" />
+                            <div className="Profile___img">
+                            <Image className="img-fluid Profile_img_border" src={dev_img} alt="developer" />
+                            </div>
                         </Col>
                         <Col md={6}>
                             <div className="mt-5">
@@ -52,11 +48,9 @@ const About = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Skills></Skills>
             </div>
-            <Footer></Footer>
         </Fragment>
     );
 };
 
-export default About;
+export default CareerObjective;

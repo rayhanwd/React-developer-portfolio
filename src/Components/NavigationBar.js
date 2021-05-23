@@ -77,10 +77,10 @@ const NavigationBar=()=>{
             <Nav.Item>
               <Nav.Link className="my-2"
                 as={Link}
-                to="/news"
+                to="/blogs"
                 onClick={() => updateExpanded(false)}
               >
-           News
+           Blogs
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>

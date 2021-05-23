@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
 import { Container, Row, Col } from 'react-bootstrap';
 import { TiSocialGithubCircular, TiSocialLinkedinCircular, TiSocialFacebookCircular, TiSocialTwitterCircular } from "react-icons/ti";
-const TopBanner = () => {
-    return (
-        <div className="bg_image">
+import NavigationBar from './NavigationBar';
+
+const Header = () => {
+  return (
+    <Fragment>
+    <NavigationBar></NavigationBar>
+    <div className="bg_image">
             <Container className="padding-top">
                 <Row>
                     <Col sm={12}>
@@ -34,7 +39,8 @@ const TopBanner = () => {
                 </Row>
             </Container>
         </div>
-    );
+    </Fragment>
+  );
 };
 
-export default TopBanner;
+export default Header;
