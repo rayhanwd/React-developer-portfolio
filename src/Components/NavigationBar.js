@@ -28,7 +28,7 @@ const NavigationBar=()=>{
     >
       <Container>
         <Navbar.Brand href="/">
-          <span className="logo-text">Dev.rayhan</span>
+          <h2 className="logo-text"><span className="dev-text">Dev</span>rayhan</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

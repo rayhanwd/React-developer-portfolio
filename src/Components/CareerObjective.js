@@ -5,45 +5,42 @@ import dev_img from '../../src/Assets/Images/profile_img.png';
 const CareerObjective = () => {
     return (
         <Fragment>
-            <div className="about-section">
+            <div id="about" className="about-section">
                 <Container>
                     <div className="page-title">
-                    <h2 className="">🙋‍♂️About Me</h2>
+                        <h2 className="">🙋‍♂️About Me</h2>
                     </div>
                     <Row>
                         <Col md={6}>
                             <div className="Profile___img">
-                            <Image className="img-fluid Profile_img_border" src={dev_img} alt="developer" />
+                                <Image className="img-fluid Profile_img_border" src={dev_img} alt="developer" />
                             </div>
                         </Col>
                         <Col md={6}>
                             <div className="mt-5">
                                 <h3 className="pt-3">Kazi Rayhan</h3>
                                 <h4 className="py-3">Front-End Developer</h4>
-                                <p>I am a Front End developer with experience building websites and web applications. I specialize in JavaScript and have professional experience working with React. I also have experience working with Redux, Gatsby. Take a look at my work or get in touch! www.fnrayhan.info</p>
+                                <p style={{ fontSize: '20px' }}>I am a Front End developer with experience building websites and web applications. I specialize in JavaScript and have professional experience working with React. I also have experience working with Redux, Gatsby.</p>
                             </div>
 
                             <div>
                                 <div className="d-flex justify-content-space-between">
                                     <div className="">
-                                        <h4 class="mb-4">Education</h4>
-                                        <p class="h5">Diploma Engineering in Computer Technology</p>
-                                        <p>Magura Polythenic Institute, 2016 - 2020</p>
-                                        <p class="h5">Junior Web Developer &amp; MERN Stack</p>
-                                        <p>Programming Hero, 2021 - 2021</p>
+                                        <h4>Professional Skills :</h4>
+                                        <span className="Skill-level"> Expertise : </span><p style={{ fontSize: '20px' }}>React.js ,Javascript,React-Router, Context-Api,React-Bootstrap,Wordpress Theme Customization,Bootstrap,Html5,CSS3.</p>
+
+                                        <span className="Skill-level">Comfortable :</span><p style={{ fontSize: '20px' }}>Node.js ,Express.js,MongoDB,Stripe.js,Material-UI</p>
+
+                                        <span className="Skill-level">Familiar :</span><p style={{ fontSize: '20px' }}>PHP, MySQL, Redux, TypeScript, SASS.</p>
+
+                                        <span className="Skill-level">Tools :</span><p style={{ fontSize: '20px' }}>GitHub, VS Code, Firebase, Heroku, Netlify, Chrome Dev Tools</p>
                                     </div>
                                 </div>
-                                <div className="">
-                                    <h4 class="mb-4">Awards</h4>
-                                    <p class="h5">Junior Web Developer</p>
-                                    <p>Certified MERN Stack, 2021</p>
-                                    <p class="h5">Highly Lover</p>
-                                    <p>Javascript, 2020</p>
-                                </div>
+
                             </div>
                             <div className="my-5">
-                                <a className="btn btn-primary text-white" href="https://drive.google.com/uc?export=download&amp;id=1vQblI0v8I4V8PDCO08J4aiU9Ksuy9tfV" download="" target="blank_" class="btn btn-primary text-white">DOWNLOAD RESUME</a>
-                                <a className="btn btn-primary text-white" href="https://www.linkedin.com/in/kazi-rayhan-b844b2171/" rel="noreferrer" target="_blank" class="btn btn-primary text-white ml-5">SEND MESSAGE</a>
+                                <a href="https://drive.google.com/uc?export=download&amp;id=1vQblI0v8I4V8PDCO08J4aiU9Ksuy9tfV" download="" target="blank_" class="btn contact-btn ">DOWNLOAD RESUME</a>
+                                <a href="https://www.linkedin.com/in/kazi-rayhan-b844b2171/" rel="noreferrer" target="_blank" class="btn contact-btn ml-5">SEND MESSAGE</a>
                             </div>
                         </Col>
                     </Row>

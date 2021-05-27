@@ -1,26 +1,27 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { TiSocialGithubCircular,TiSocialLinkedinCircular,TiSocialFacebookCircular,TiSocialTwitterCircular } from "react-icons/ti";
+import { FaGithub, FaLinkedinIn, FaFacebookF, FaTwitter } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className="footer-section py-2">
-        <Container>
-            <Row>
-                <Col md={12}>
-                    <div className="mt-3">
-                    <a href="http://https://github.com/rayhanwd" target="_blank" rel="noopener noreferrer"><span className="footer-icon"><TiSocialGithubCircular /></span></a>
-                        <a href="https://www.linkedin.com/in/kazi-rayhan-b844b2171/" target="_blank" rel="noopener noreferrer"><span className="footer-icon"><TiSocialLinkedinCircular /></span></a>
-                        <a href="https://www.facebook.com/KR.RAYHAN70/" target="_blank" rel="noopener noreferrer"><span className="footer-icon"><TiSocialFacebookCircular /></span></a>
-                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><span className="footer-icon"><TiSocialTwitterCircular /></span>
-                       </a>
-                    </div>
-                    <div className="mt-1">
-                        <p className="footer-text">One Page Personal Portfolio website By kazi rayhan @ 2021</p>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-    </div>
+            <Container>
+                <Row>
+                    <Col md={12}>
+                        <div className="mt-5">
+                            <a href="http://https://github.com/rayhanwd" target="_blank" rel="noopener noreferrer"><span className="footer-icon"><FaGithub /></span></a>
+                            <a href="https://www.linkedin.com/in/kazi-rayhan-b844b2171/" target="_blank" rel="noopener noreferrer"><span className="footer-icon"><FaLinkedinIn /></span></a>
+                            <a href="https://www.facebook.com/KR.RAYHAN70/" target="_blank" rel="noopener noreferrer"><span className="footer-icon"><FaFacebookF /></span></a>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><span className="footer-icon"><FaTwitter /></span>
+                            </a>
+                        </div>
+                        <div className="mt-2">
+                            <p className="footer-text">Copyright ©2021 All Rights Reserved
+                            <br/>Designed by <span className="author-name">Kazi Rayhan</span></p>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 };
 
