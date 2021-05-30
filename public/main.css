@@ -100,12 +100,15 @@ a {
 .Profile_img_border {
     border-radius: 10px;
 }
-span.portfolio-tool{
+.portfolio-tool{
     background-color: #24263b;
     margin: 2px;
-    padding: 7px 14px;
-    color: #fff;
-    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 14px !important;
+    color: #fff !important;
+    border-radius: 3px !important;
+    font-size: 1rem !important;
+    font-weight: 200 !important;
 }
 .Skill-level{
     font-family: 'Poppins', sans-serif;
@@ -124,14 +127,21 @@ span.portfolio-tool{
     background-color: #fd4766;
     color: #fff !important;
     transition: background-color 0.5s;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
 .contact-icon {
-    font-size: 30px;
-    background: rgba(255, 255, 255, .2) !important;
-    color: #fd4766;
+    font-size: 45px;
+    background: #24263b;
+    color: #fff;
+    border-radius: 50%;
+    padding: 9px;
+    margin-right: 1rem;
 }
-
+.contact-icon:hover{
+    color: #fd4766;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
 .page-title {
     text-align: center;
     margin-top: 120px;
@@ -153,11 +163,14 @@ span.portfolio-tool{
 
 .hover-text {
     display: none;
+    font-family: 'Poppins', sans-serif;
     z-index: 1;
-    text-align: center;
-    padding-top: 100px;
+    padding: 70px;
 }
-
+.hover-text a{
+    text-decoration:none !important;
+    margin-right: 5px;
+}
 .card-div:hover .hover-text {
     display: block !important;
     color: #fff !important;
@@ -168,10 +181,9 @@ span.portfolio-tool{
 }
 
 .card-div:hover .hover-text {
-    background: #24263b !important;
+    background: rgba(44, 38, 99, 0.955) !important;
     width: 100%;
     height: 100%;
-    opacity: 0.7;
 }
 
 .footer-section {

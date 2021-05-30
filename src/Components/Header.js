@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaGithub, FaLinkedinIn, FaFacebookF, FaTwitter, FaAngleDown } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaFacebookF, FaTwitter, FaHandPointDown } from "react-icons/fa";
 import NavigationBar from './NavigationBar';
 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
                         </Col>
                     </Row>
                     <div className="text-center">
-                    <a href="#about"><span className="arrow-icon"><FaAngleDown /></span></a>
+                    <a href="#about"><span className="arrow-icon"><FaHandPointDown /></span></a>
                     </div>
                 </Container>
             </div>
