@@ -27,11 +27,11 @@ const CareerObjective = () => {
                                 <div className="d-flex justify-content-space-between">
                                     <div className="">
                                         <h4>Professional Skills :</h4>
-                                        <span className="Skill-level"> Expertise : </span><p style={{ fontSize: '20px' }}>React.js ,Javascript,React-Router, Context-Api,React-Bootstrap,Wordpress Theme Customization,Bootstrap,Html5,CSS3.</p>
+                                        <span className="Skill-level"> Expertise : </span><p style={{ fontSize: '20px' }}>React.js ,Redux, Javascript,React-Router, Context-Api,React-Bootstrap,Bootstrap,Html5,CSS3.</p>
 
                                         <span className="Skill-level">Comfortable :</span><p style={{ fontSize: '20px' }}>Node.js ,Express.js,MongoDB,Stripe.js,Material-UI</p>
 
-                                        <span className="Skill-level">Familiar :</span><p style={{ fontSize: '20px' }}>PHP, MySQL, Redux, TypeScript, SASS.</p>
+                                        <span className="Skill-level">Familiar :</span><p style={{ fontSize: '20px' }}>PHP, MySQL, TypeScript, SASS.</p>
 
                                         <span className="Skill-level">Tools :</span><p style={{ fontSize: '20px' }}>GitHub, VS Code, Firebase, Heroku, Netlify, Chrome Dev Tools</p>
                                     </div>
