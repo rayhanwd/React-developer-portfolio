@@ -1,12 +1,35 @@
 import React from 'react';
 import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
+import Gadget_bd from '../Assets/Images/Gadget_bd.png';
 import vpn_service_img from '../Assets/Images/vpn_services.png';
 import Cooking_Master_img from '../Assets/Images/Cooking_Master.png';
 import Current_weather_app_img from '../Assets/Images/Current_weather_app.png';
-import Professional_sport_img from '../Assets/Images/Professional_sport.png';
+import Soccer_club from '../Assets/Images/Soccer_club.png';
 import Dental_service_img from '../Assets/Images/dental_service.png';
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const PortfolioData = [
+    {
+        title: 'Gadget Bd',
+        tools: {
+            html: 'Html',
+            css: 'Css',
+            bootstrap: 'Bootstrap',
+            React: 'React Js',
+            Redux: 'Redux',
+        },
+        feature:{
+            a: 'Latest React And Redux',
+            b: 'Firebase',
+            c: 'Use Hook And JSX',
+            d: 'Props And State',
+            e: 'Dynamic Routing',
+            f: 'Static Routing'
+
+        },
+        img: Gadget_bd,
+        liveUrl: 'https://gadget-bd-82db7.web.app/',
+        gitUrl: 'https://github.com/rayhanwd/Gadget-Bd-React-Redux-Toolkit'
+    },
     {
         title: 'Creative Agency',
         tools: {
@@ -79,7 +102,7 @@ const PortfolioData = [
         gitUrl: 'https://github.com/rayhanwd/current-weatherApp'
     },
     {
-        title: 'Sport Clubs',
+        title: 'Soccer Club',
         tools: {
             html: 'Html',
             css: 'Css',
@@ -96,7 +119,7 @@ const PortfolioData = [
 
         },
 
-        img: Professional_sport_img,
+        img: Soccer_club,
         liveUrl: 'https://professional-sport-team.netlify.app/',
         gitUrl: 'https://github.com/rayhanwd/A-sport-team-builder-react-js'
     },
@@ -148,6 +171,7 @@ const Portfolio = () => {
                                         <Card.Title>{data.title}</Card.Title>
                                         <div className="my-4">
                                             <Badge className="portfolio-tool">{data.tools.React}</Badge>
+                                            <Badge className="portfolio-tool">{data.tools.Redux}</Badge>
                                             <Badge className="portfolio-tool">{data.tools.JavaScript}</Badge>
                                             <Badge className="portfolio-tool">{data.tools.Node}</Badge>
                                             <Badge className="portfolio-tool">{data.tools.API}</Badge>

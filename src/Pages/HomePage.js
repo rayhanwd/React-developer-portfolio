@@ -8,7 +8,7 @@ import Blog from './../Components/Blog';
 import Contact from './../Components/Contact';
 import Footer from './../Components/Footer';
 const HomePage = () => {
-  document.title = 'Rayhan | Home';
+  document.title = 'Developer | Portfolio';
   return (
     <>
       <header className='home-main min-vh-100'>
