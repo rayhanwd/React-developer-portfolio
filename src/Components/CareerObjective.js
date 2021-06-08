@@ -20,18 +20,19 @@ const CareerObjective = () => {
                             <div className="mt-5">
                                 <h3 className="pt-3">Kazi Rayhan</h3>
                                 <h4 className="py-3">Front-End Developer</h4>
-                                <p style={{ fontSize: '20px' }}>I am a Front End developer with experience building websites and web applications. I specialize in JavaScript and have professional experience working with React. I also have experience working with Redux, Gatsby.</p>
+                                <p style={{ fontSize: '20px' }}>Next Achievement: To improve as a Full-stack Web Developer and also an industry professional.
+Frontend developer that specializes in utilizing React.js to create user-facing functionality. I'm looking forward to putting my enthusiasm into practice on a full-time basis. Every day, I attempt to learn something new to advance my career as a High-Level programmer.</p>
                             </div>
 
                             <div>
                                 <div className="d-flex justify-content-space-between">
                                     <div className="">
                                         <h4>Professional Skills :</h4>
-                                        <span className="Skill-level"> Expertise : </span><p style={{ fontSize: '20px' }}>React.js ,Redux, Javascript,React-Router, Context-Api,React-Bootstrap,Bootstrap,Html5,CSS3.</p>
+                                        <span className="Skill-level"> Expertise : </span><p style={{ fontSize: '20px' }}>React.js ,Redux, Javascript,React-Router, Context-Api,React-Bootstrap,Bootstrap,Html5,CSS3,SASS.</p>
 
-                                        <span className="Skill-level">Comfortable :</span><p style={{ fontSize: '20px' }}>Node.js ,Express.js,MongoDB,Stripe.js,Material-UI</p>
+                                        <span className="Skill-level">Comfortable :</span><p style={{ fontSize: '20px' }}>Node.js ,Express.js,MongoDB,Stripe.js,Material-UI,Gatsby</p>
 
-                                        <span className="Skill-level">Familiar :</span><p style={{ fontSize: '20px' }}>PHP, MySQL, TypeScript, SASS.</p>
+                                        <span className="Skill-level">Familiar :</span><p style={{ fontSize: '20px' }}>PHP, MySQL, TypeScript</p>
 
                                         <span className="Skill-level">Tools :</span><p style={{ fontSize: '20px' }}>GitHub, VS Code, Firebase, Heroku, Netlify, Chrome Dev Tools</p>
                                     </div>
