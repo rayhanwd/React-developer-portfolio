@@ -6,6 +6,7 @@ import Cooking_Master_img from '../Assets/Images/Cooking_Master.png';
 import Current_weather_app_img from '../Assets/Images/Current_weather_app.png';
 import Soccer_club from '../Assets/Images/Soccer_club.png';
 import Dental_service_img from '../Assets/Images/dental_service.png';
+import Ride_finder from '../Assets/Images/Ride_Finder_APP.PNG';
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const PortfolioData = [
     {
@@ -17,7 +18,7 @@ const PortfolioData = [
             React: 'React Js',
             Redux: 'Redux',
         },
-        feature:{
+        feature: {
             a: 'Latest React And Redux',
             b: 'Firebase',
             c: 'Use Hook And JSX',
@@ -44,7 +45,7 @@ const PortfolioData = [
             Netlify: 'Netlify',
             Firebase: 'Firebase'
         },
-        feature:{
+        feature: {
             a: 'User and Admin dashboard',
             b: 'Firebase Authentication',
             c: 'Sprite Payment Gateway',
@@ -66,7 +67,7 @@ const PortfolioData = [
             JavaScript: 'JavaScript',
             API: 'API'
         },
-        feature:{
+        feature: {
             a: 'Implement search bar and search by inter key press',
             b: 'Result a lot of recipe from DB meal API',
             c: 'Filter and showing specific details by clicking any recipe',
@@ -88,7 +89,7 @@ const PortfolioData = [
             JavaScript: 'JavaScript',
             API: 'API'
         },
-        feature:{
+        feature: {
             a: 'have 250+ countries current weather',
             b: 'Have conditional rendering for weather icon',
             c: 'HTTP request and fetch API',
@@ -109,7 +110,7 @@ const PortfolioData = [
             bootstrap: 'Bootstrap',
             React: 'React Js',
         },
-        feature:{
+        feature: {
             a: '200+ Clubs information implement here from Sport API',
             b: 'UseState, UseEffect, Dynamic routing',
             c: 'HTTP request and fetch API',
@@ -137,7 +138,7 @@ const PortfolioData = [
             Netlify: 'Netlify',
             Firebase: 'Firebase'
         },
-        feature:{
+        feature: {
             a: 'Admin control panel',
             b: 'Appointment page optimization',
             c: 'Dynamic Functionality,user Authentication by firebase',
@@ -151,6 +152,35 @@ const PortfolioData = [
         liveUrl: 'https://dental-service-5195f.web.app/',
         gitUrl: 'https://github.com/rayhanwd/dental-service'
     }
+    ,
+    {
+        title: 'Ride_finder',
+        tools: {
+            html: 'Html',
+            css: 'Css',
+            bootstrap: 'Bootstrap',
+            React: 'React Js',
+            Node: 'Node Js',
+            Express: 'Express Js',
+            MongoDB: 'MongoDB',
+            Heroku: 'Heroku',
+            Netlify: 'Netlify',
+            Firebase: 'Firebase'
+        },
+        feature: {
+            a: 'Admin control panel',
+            b: 'Appointment page optimization',
+            c: 'Dynamic Functionality,user Authentication by firebase',
+            d: 'patient see their appointment and current status,implement date picker',
+            e: 'UseState, UseEffect, Dynamic routing,Rest API',
+            f: 'user Login method implement'
+
+        },
+
+        img: Ride_finder,
+        liveUrl: 'https://ride-finding.web.app/',
+        gitUrl: 'https://github.com/rayhanwd/Ride-sharing-app-React-Toolkit'
+    }
 ]
 const Portfolio = () => {
     return (
@@ -162,7 +192,7 @@ const Portfolio = () => {
                 <Row>
                     {
                         PortfolioData.map(data =>
-                            <Col md={6} key={data.title}>
+                            <Col md={4} key={data.title}>
                                 <Card className="shadow position-relative card-div mb-5">
                                     <div className="portfolio">
                                         <Card.Img variant="top" src={data.img} />
@@ -188,16 +218,9 @@ const Portfolio = () => {
                                     <div className="position-absolute hover-text">
                                         <h4>{data.title}</h4>
                                         <h5>Main Features :</h5>
-                                        <ol>
-                                        <li>{data.feature.a}</li>
-                                        <li>{data.feature.b}</li>
-                                        <li>{data.feature.c}</li>
-                                        <li>{data.feature.d}</li>
-                                        <li>{data.feature.e}</li>
-                                        <li>{data.feature.f}</li>
-                                        </ol>
-                                        <a href={data.liveUrl} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Live preview</a>
+                                        <p className="feature-text">{data.feature.a},{data.feature.b},{data.feature.c},{data.feature.d},{data.feature.e},{data.feature.f}</p>
                                         <a href={data.gitUrl} target="_blank" rel="noopener noreferrer"><FaGithub /> Source code</a>
+                                        <a href={data.liveUrl} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Live</a>
                                     </div>
                                 </Card>
                             </Col>

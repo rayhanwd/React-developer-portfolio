@@ -1,170 +1,86 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
-
+const SkillData = [
+    {
+        image: 'https://i.ibb.co/Y84SPhn/Png-Item-6644509.png',
+        title: 'React',
+    },
+    {
+        image: 'https://i.ibb.co/MC3fXBJ/js.png',
+        title: 'Javascript',
+    },
+    {
+        image: 'https://i.ibb.co/mSK54DF/node.png',
+        title: 'Node JS',
+    },
+    {
+        image: 'https://i.ibb.co/VgRnKZt/pngkit-ifunny-watermark-png-2254691.png',
+        title: 'MongoDB',
+    },
+    {
+        image: 'https://i.ibb.co/nc2XCxP/ts.png',
+        title: 'TypeScript',
+    },
+    {
+        image: 'https://i.ibb.co/bQzjJ5p/material.png',
+        title: 'Material UI',
+    },
+    {
+        image: 'https://i.ibb.co/Cwh98n5/firebase.png',
+        title: 'Firebase',
+    },
+    {
+        image: 'https://i.ibb.co/SmgyHtR/heroku.png',
+        title: 'Heroku',
+    },
+    {
+        image: 'https://i.ibb.co/LNp1Qh9/sass.png',
+        title: 'Sass',
+    },
+    {
+        image: 'https://i.ibb.co/KDGNZDH/bootstrap.png',
+        title: 'Bootstrap',
+    },
+    {
+        image: 'https://i.ibb.co/dWK5RCW/git.png',
+        title: 'GitHub',
+    },
+    {
+        image: 'https://www.markusantonwolf.com/media/pages/blog/tailwind-css/265298487-1596675041/tailwind-css-logo.svg',
+        title: 'Tailwind css',
+    },
+    {
+        image: 'https://i.ibb.co/2PsYWF8/3920311-middle.png',
+        title: 'Css',
+    },
+    {
+        image: 'https://i.ibb.co/RN0t6Xh/html.png',
+        title: 'Html',
+    }
+];
 const Skills = () => {
     return (
         <Container>
             <div className="page-title">
-                <h3 className="">Skills</h3>
+                <h3 className="">Skills,Tools and Technology</h3>
             </div>
             <Row>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-                <Card.Img variant="top" src="https://i.ibb.co/Y84SPhn/Png-Item-6644509.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>React</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-                <Card.Img variant="top" src="https://i.ibb.co/MC3fXBJ/js.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Javascript</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/mSK54DF/node.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Node Js</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/VgRnKZt/pngkit-ifunny-watermark-png-2254691.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Mongo Db</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/nc2XCxP/ts.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>TypeScript</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/bQzjJ5p/material.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Material UI</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/Cwh98n5/firebase.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Firebase</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/SmgyHtR/heroku.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Heroku</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/LNp1Qh9/sass.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Sass</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/KDGNZDH/bootstrap.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Bootstrap</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/dWK5RCW/git.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Git Hub</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/2PsYWF8/3920311-middle.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Css</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
-                <Col md={3}>
-                <Card className="shadow-sm mb-5">
-                <div className="">
-                <div className="skill-icon">
-              <Card.Img variant="top" src="https://i.ibb.co/RN0t6Xh/html.png" />
-                </div>
-                <Card.Body className="ml-5">
-                    <Card.Title>Html</Card.Title>
-                </Card.Body>
-                </div>
-            </Card>    
-                </Col>
+                {
+                    SkillData.map(data =>
+                        <Col md={2}>
+                            <Card className="card_effect py-4">
+                                <div className="mx-auto">
+                                    <div className="skill-icon">
+                                        <Card.Img src={data.image} />
+                                    </div>
+                                    <h6 className="text-center pt-3">
+                                    {data.title}
+                                    </h6>
+                                </div>
+                            </Card>
+                        </Col>)
+                }
             </Row>
 
         </Container>

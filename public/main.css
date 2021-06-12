@@ -2,8 +2,7 @@
 .sticky {
     background-color: #24263b !important;
     transition: all 0.3s ease-out 0s !important;
-    /* -webkit-backdrop-filter: blur(15px) !important; 
-    backdrop-filter: blur(15px) !important; */
+    box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.1);
 }
 
 .sticky a {
@@ -57,7 +56,7 @@ a {
 }
 
 .welcome-text {
-    font-size: 15px;
+    font-size: 25px !important;
     text-transform: uppercase;
     letter-spacing: 4px;
     display: block;
@@ -74,6 +73,11 @@ a {
     text-transform: inherit;
 }
 
+img.banner_profile {
+    width: 60%;
+    border-radius: 50%;
+}
+
 .special {
     font-weight: 900 !important;
     color: #fff !important;
@@ -82,25 +86,25 @@ a {
 .special-text {
     border: 3px solid white;
     border-bottom: none;
+    border-top: none;
+    border-left: none;
     padding-top: 25px;
 }
 
 .skill-icon {
-    font-size: 54px;
     display: inline-block;
-    width: 120px;
-    padding: 30px;
+    width: 60px;
 }
 
 .Profile___img {
     padding: 80px;
-    margin-top: 100px;
 }
 
 .Profile_img_border {
     border-radius: 10px;
 }
-.portfolio-tool{
+
+.portfolio-tool {
     background-color: #24263b;
     margin: 2px;
     font-family: 'Poppins', sans-serif;
@@ -110,11 +114,18 @@ a {
     font-size: 1rem !important;
     font-weight: 200 !important;
 }
-.Skill-level{
+
+.Skill-level {
     font-family: 'Poppins', sans-serif;
     color: #fd4766 !important;
     font-size: 1.3rem;
 }
+
+.blog-button {
+    color: #fd4766 !important;
+    font-size: 14px !important;
+}
+
 .contact-btn {
     padding: 18px 38px;
     border: 1px solid #fd4766 !important;
@@ -123,11 +134,11 @@ a {
     padding: 14px 18px !important;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
     background-color: #fd4766;
     color: #fff !important;
     transition: background-color 0.5s;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
 }
 
 .contact-icon {
@@ -138,10 +149,12 @@ a {
     padding: 9px;
     margin-right: 1rem;
 }
-.contact-icon:hover{
+
+.contact-icon:hover {
     color: #fd4766;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
 }
+
 .page-title {
     text-align: center;
     margin-top: 120px;
@@ -165,12 +178,19 @@ a {
     display: none;
     font-family: 'Poppins', sans-serif;
     z-index: 1;
-    padding: 70px;
+    padding: 30px 20px 20px 20px;
+    border-radius: 3px;
 }
-.hover-text a{
-    text-decoration:none !important;
+
+.hover-text a {
+    text-decoration: none !important;
     margin-right: 5px;
 }
+
+.hover-text p {
+    font-family: sans, sans-serif;
+}
+
 .card-div:hover .hover-text {
     display: block !important;
     color: #fff !important;
@@ -199,7 +219,6 @@ a {
 .social-icon svg {
     color: #ffffff;
     font-size: 52px;
-    margin-left: 20px;
     cursor: pointer;
     padding: 13px;
     background: rgba(255, 255, 255, .2);
@@ -268,4 +287,29 @@ a {
 
 .author-name {
     color: #fd4766 !important;
+}
+
+/* Glass Effect in card */
+
+.card_effect:hover {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card_effect:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
 }

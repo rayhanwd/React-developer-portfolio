@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import Header from '../Components/Header';
 import Skills from './../Components/Skills';
 import CareerObjective from './../Components/CareerObjective';
@@ -8,9 +8,9 @@ import Blog from './../Components/Blog';
 import Contact from './../Components/Contact';
 import Footer from './../Components/Footer';
 const HomePage = () => {
-  document.title = 'Developer | Portfolio';
+  document.title = 'Developer portfolio website';
   return (
-    <>
+    <Fragment>
       <header className='home-main min-vh-100'>
       <Header></Header>
       </header>
@@ -21,7 +21,7 @@ const HomePage = () => {
       <section><Blog></Blog></section>
       <section><Contact></Contact></section>
       <footer><Footer></Footer></footer>
-    </>
+    </Fragment>
   );
 };
 
