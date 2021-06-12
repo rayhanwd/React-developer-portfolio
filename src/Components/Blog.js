@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Card } from 'react-bootstrap';
 import { Container, Row } from 'react-bootstrap';
+import Slide from 'react-reveal/Slide';
 
 const BlogData = [
     {
@@ -46,6 +47,7 @@ const Blog = () => {
             <div className="page-title">
                 <h2 className="">📰Latest Blogs</h2>
             </div>
+            <Slide right>
             <Row className="py-5">
                 {
                     BlogData.map(blog =>
@@ -61,6 +63,7 @@ const Blog = () => {
                     )
                 }
             </Row>
+            </Slide>
         </Container>
     );
 };

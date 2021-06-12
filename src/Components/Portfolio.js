@@ -8,6 +8,7 @@ import Soccer_club from '../Assets/Images/Soccer_club.png';
 import Dental_service_img from '../Assets/Images/dental_service.png';
 import Ride_finder from '../Assets/Images/Ride_Finder_APP.PNG';
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import Slide from 'react-reveal/Slide';
 const PortfolioData = [
     {
         title: 'Gadget Bd',
@@ -189,6 +190,7 @@ const Portfolio = () => {
                 <div className="page-title">
                     <h2 className="">📃Latest Portfolio</h2>
                 </div>
+                <Slide left>
                 <Row>
                     {
                         PortfolioData.map(data =>
@@ -227,6 +229,7 @@ const Portfolio = () => {
                         )
                     }
                 </Row>
+                </Slide>
             </Container>
         </div>
     );

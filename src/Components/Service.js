@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Container, Col, Card } from "react-bootstrap";
 import { AiOutlineAntDesign, AiOutlineApi, AiOutlineAppstoreAdd } from "react-icons/ai";
 import { FaCode, FaBlog, FaReact } from "react-icons/fa";
-
+import Slide from 'react-reveal/Slide';
 
 import { Link } from 'react-router-dom';
 const Service = () => {
@@ -12,6 +12,7 @@ const Service = () => {
                 <div className="page-title">
                     <h2 className="">🚛Services</h2>
                 </div>
+                <Slide top>
                 <Row>
                     <Col md={4}>
                         <Card className="shadow-sm mb-5 service-card">
@@ -98,6 +99,7 @@ const Service = () => {
                         </Card>
                     </Col>
                 </Row>
+            </Slide>
             </Container>
         </div>
     );

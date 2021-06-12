@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
+import Slide from 'react-reveal/Slide';
 const SkillData = [
     {
         image: 'https://i.ibb.co/Y84SPhn/Png-Item-6644509.png',
@@ -65,6 +66,7 @@ const Skills = () => {
             <div className="page-title">
                 <h3 className="">Skills,Tools and Technology</h3>
             </div>
+            <Slide bottom>
             <Row>
                 {
                     SkillData.map(data =>
@@ -82,7 +84,7 @@ const Skills = () => {
                         </Col>)
                 }
             </Row>
-
+            </Slide>
         </Container>
     );
 };
