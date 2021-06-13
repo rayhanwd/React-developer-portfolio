@@ -191,44 +191,44 @@ const Portfolio = () => {
                     <h2 className="">📃Latest Portfolio</h2>
                 </div>
                 <Slide left>
-                <Row>
-                    {
-                        PortfolioData.map(data =>
-                            <Col md={4} key={data.title}>
-                                <Card className="shadow position-relative card-div mb-5">
-                                    <div className="portfolio">
-                                        <Card.Img variant="top" src={data.img} />
-                                    </div>
-                                    <Card.Body>
-                                        <Card.Title>{data.title}</Card.Title>
-                                        <div className="my-4">
-                                            <Badge className="portfolio-tool">{data.tools.React}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.Redux}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.JavaScript}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.Node}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.API}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.Express}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.MongoDB}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.Firebase}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.Netlify}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.bootstrap}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.css}</Badge>
-                                            <Badge className="portfolio-tool">{data.tools.html}</Badge>
-
+                    <Row>
+                        {
+                            PortfolioData.map(data =>
+                                <Col md={4} key={data.title}>
+                                    <Card className="shadow position-relative card-div mb-5">
+                                        <div className="portfolio">
+                                            <Card.Img variant="top" src={data.img} />
                                         </div>
-                                    </Card.Body>
-                                    <div className="position-absolute hover-text">
-                                        <h4>{data.title}</h4>
-                                        <h5>Main Features :</h5>
-                                        <p className="feature-text">{data.feature.a},{data.feature.b},{data.feature.c},{data.feature.d},{data.feature.e},{data.feature.f}</p>
-                                        <a href={data.gitUrl} target="_blank" rel="noopener noreferrer"><FaGithub /> Source code</a>
-                                        <a href={data.liveUrl} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Live</a>
-                                    </div>
-                                </Card>
-                            </Col>
-                        )
-                    }
-                </Row>
+                                        <Card.Body>
+                                            <Card.Title>{data.title}</Card.Title>
+                                            <div className="my-4">
+                                                <Badge className="portfolio-tool">{data.tools.React}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.Redux}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.JavaScript}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.Node}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.API}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.Express}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.MongoDB}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.Firebase}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.Netlify}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.bootstrap}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.css}</Badge>
+                                                <Badge className="portfolio-tool">{data.tools.html}</Badge>
+
+                                            </div>
+                                        </Card.Body>
+                                        <div className="position-absolute hover-text">
+                                            <h4>{data.title}</h4>
+                                            <h5>Main Features :</h5>
+                                            <p className="feature-text">{data.feature.a},{data.feature.b},{data.feature.c},{data.feature.d},{data.feature.e},{data.feature.f}</p>
+                                            <a href={data.gitUrl} target="_blank" rel="noopener noreferrer"><FaGithub /> Source code</a>
+                                            <a href={data.liveUrl} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Live</a>
+                                        </div>
+                                    </Card>
+                                </Col>
+                            )
+                        }
+                    </Row>
                 </Slide>
             </Container>
         </div>

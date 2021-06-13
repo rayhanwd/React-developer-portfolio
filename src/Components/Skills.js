@@ -67,23 +67,23 @@ const Skills = () => {
                 <h3 className="">Skills,Tools and Technology</h3>
             </div>
             <Slide bottom>
-            <Row>
-                {
-                    SkillData.map(data =>
-                        <Col md={2}>
-                            <Card className="card_effect py-4">
-                                <div className="mx-auto">
-                                    <div className="skill-icon">
-                                        <Card.Img src={data.image} />
+                <Row>
+                    {
+                        SkillData.map(data =>
+                            <Col md={2}>
+                                <Card className="card_effect py-4">
+                                    <div className="mx-auto">
+                                        <div className="skill-icon">
+                                            <Card.Img src={data.image} />
+                                        </div>
+                                        <h6 className="text-center pt-3">
+                                            {data.title}
+                                        </h6>
                                     </div>
-                                    <h6 className="text-center pt-3">
-                                    {data.title}
-                                    </h6>
-                                </div>
-                            </Card>
-                        </Col>)
-                }
-            </Row>
+                                </Card>
+                            </Col>)
+                    }
+                </Row>
             </Slide>
         </Container>
     );

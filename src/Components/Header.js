@@ -5,7 +5,7 @@ import NavigationBar from './NavigationBar';
 import profile_pic from './../Assets/Images/Banner_profile_pic.png';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
-import Bounce from 'react-reveal/Bounce';
+
 const Header = () => {
     return (
         <Fragment>
@@ -35,11 +35,11 @@ const Header = () => {
                             </div>
                         </Col>
                         <Col md={6}>
-                            <Bounce>
-                            <div className="text-center mt-4">
-                                <img className="img-fluid banner_profile shadow-lg" src={profile_pic} alt="" srcset="" />
-                            </div>
-                            </Bounce>
+                            <Slide bottom>
+                                <div className="text-center mt-4">
+                                    <img className="img-fluid banner_profile shadow-lg" src={profile_pic} alt="" srcset="" />
+                                </div>
+                            </Slide>
                         </Col>
                     </Row>
                     <div className="text-center">

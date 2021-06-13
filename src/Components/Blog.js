@@ -44,25 +44,27 @@ const BlogData = [
 const Blog = () => {
     return (
         <Container className="my-5">
-            <div className="page-title">
-                <h2 className="">📰Latest Blogs</h2>
-            </div>
+            <Slide top>
+                <div className="page-title">
+                    <h2 className="">📰Latest Blogs</h2>
+                </div>
+            </Slide>
             <Slide right>
-            <Row className="py-5">
-                {
-                    BlogData.map(blog =>
-                        <Col key={blog.title} md={4}>
-                            <Card className="blog-card shadow-sm mb-5">
-                                <Card.Img variant="top" src={blog.img} />
-                                <Card.Body>
-                                    <Card.Title>{blog.title}</Card.Title>
-                                    <a className="blog-button" href={blog.readMore} rel="noreferrer" target="_blank" >Read more</a>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    )
-                }
-            </Row>
+                <Row className="py-5">
+                    {
+                        BlogData.map(blog =>
+                            <Col key={blog.title} md={4}>
+                                <Card className="blog-card shadow-sm mb-5">
+                                    <Card.Img variant="top" src={blog.img} />
+                                    <Card.Body>
+                                        <Card.Title>{blog.title}</Card.Title>
+                                        <a className="blog-button" href={blog.readMore} rel="noreferrer" target="_blank" >Read more</a>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        )
+                    }
+                </Row>
             </Slide>
         </Container>
     );

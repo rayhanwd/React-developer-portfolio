@@ -132,10 +132,11 @@ img.banner_profile {
     color: #fd4766 !important;
     letter-spacing: 1px;
     padding: 14px 18px !important;
+    background: none !important;
 }
 
 .contact-btn:hover {
-    background-color: #fd4766;
+    background-color: #fd4766 !important;
     color: #fff !important;
     transition: background-color 0.5s;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
