@@ -8,7 +8,13 @@
 .sticky a {
     color: #fff !important;
 }
-
+.link{
+    color: #fff !important;
+    font-size: 15px;
+    margin-right: 23px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
 .navbar {
     position: fixed !important;
     transition: all 0.3s ease-out 0s !important;

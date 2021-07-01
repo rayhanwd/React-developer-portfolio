@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-
+import logo from '../../src/Assets/Images/logo.png';
 const NavigationBar=()=>{
   const [expand, updateExpanded] = useState(false);
   const [addColor, updateNavbar] = useState(false);
@@ -15,7 +15,6 @@ const NavigationBar=()=>{
       updateNavbar(false);
     }
   }
-  //const scrollHandler=()=>{window.scrollY>=20?updateNavbar(true):updateNavbar(false)}
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -28,7 +27,7 @@ const NavigationBar=()=>{
     >
       <Container>
         <Navbar.Brand href="/">
-          <h2 className="logo-text"><span className="dev-text">Dev</span>rayhan</h2>
+         <img src={logo} alt="logo-text" srcset="" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -43,12 +42,12 @@ const NavigationBar=()=>{
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link className="my-2" as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link className="my-2 link" as={Link} to="/" onClick={() => updateExpanded(false)}>
                  Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="my-2"
+              <Nav.Link className="my-2 link"
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
@@ -57,7 +56,7 @@ const NavigationBar=()=>{
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="my-2"
+              <Nav.Link className="my-2 link"
                 as={Link}
                 to="/services"
                 onClick={() => updateExpanded(false)}
@@ -66,7 +65,7 @@ const NavigationBar=()=>{
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="my-2"
+              <Nav.Link className="my-2 link"
                 as={Link}
                 to="/portfolio"
                 onClick={() => updateExpanded(false)}
@@ -75,7 +74,7 @@ const NavigationBar=()=>{
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="my-2"
+              <Nav.Link className="my-2 link"
                 as={Link}
                 to="/blogs"
                 onClick={() => updateExpanded(false)}
@@ -84,7 +83,7 @@ const NavigationBar=()=>{
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="my-2"
+              <Nav.Link className="my-2 link"
                 as={Link}
                 to="/contact"
                 onClick={() => updateExpanded(false)}

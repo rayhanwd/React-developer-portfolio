@@ -7,9 +7,79 @@ import Current_weather_app_img from '../Assets/Images/Current_weather_app.png';
 import Soccer_club from '../Assets/Images/Soccer_club.png';
 import Dental_service_img from '../Assets/Images/dental_service.png';
 import Ride_finder from '../Assets/Images/Ride_Finder_APP.PNG';
+import Car_Care from '../Assets/Images/car_cleaning.PNG';
+import JS_Blog from '../Assets/Images/Technical_Blog.png';
+import StartUp_agency from '../Assets/Images/Startup_agency.PNG';
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import Slide from 'react-reveal/Slide';
+
 const PortfolioData = [
+    {
+        title: 'Javascript Pain killer Blog',
+        tools: {
+            html: 'Html',
+            css: 'Css',
+            bootstrap: 'Bootstrap',
+            React: 'React Js',
+            Redux: 'Redux',
+        },
+        feature: {
+            a: 'Latest React And Redux',
+            b: 'Firebase',
+            c: 'Use Hook And JSX',
+            d: 'Props And State',
+            e: 'Dynamic Routing',
+            f: 'Static Routing'
+
+        },
+        img: JS_Blog,
+        liveUrl: 'https://gadget-bd-82db7.web.app/',
+        gitUrl: 'https://github.com/rayhanwd/Gadget-Bd-React-Redux-Toolkit'
+    },
+    {
+        title: 'Car care',
+        tools: {
+            html: 'Html',
+            css: 'Css',
+            bootstrap: 'Bootstrap',
+            React: 'React Js',
+            Redux: 'Redux',
+        },
+        feature: {
+            a: 'Latest React And Redux',
+            b: 'Firebase',
+            c: 'Use Hook And JSX',
+            d: 'Props And State',
+            e: 'Dynamic Routing',
+            f: 'Static Routing'
+
+        },
+        img: Car_Care,
+        liveUrl: 'https://gadget-bd-82db7.web.app/',
+        gitUrl: 'https://github.com/rayhanwd/Gadget-Bd-React-Redux-Toolkit'
+    },
+    {
+        title: 'StartUp Agency',
+        tools: {
+            html: 'Html',
+            css: 'Css',
+            bootstrap: 'Bootstrap',
+            React: 'React Js',
+            Redux: 'Redux',
+        },
+        feature: {
+            a: 'Latest React And Redux',
+            b: 'Firebase',
+            c: 'Use Hook And JSX',
+            d: 'Props And State',
+            e: 'Dynamic Routing',
+            f: 'Static Routing'
+
+        },
+        img: StartUp_agency,
+        liveUrl: 'https://gadget-bd-82db7.web.app/',
+        gitUrl: 'https://github.com/rayhanwd/Gadget-Bd-React-Redux-Toolkit'
+    },
     {
         title: 'Gadget Bd',
         tools: {
@@ -155,7 +225,7 @@ const PortfolioData = [
     }
     ,
     {
-        title: 'Ride_finder',
+        title: 'Ride finder Application',
         tools: {
             html: 'Html',
             css: 'Css',
